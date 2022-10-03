@@ -34,7 +34,9 @@ var data = {
 }
 
 var jsonData = JSON.stringify(data);
-
+// .env file contains the mailchimp url and authorization
+//Mailchimp_URL = "https://us14.api.mailchimp.com/3.0/lists/<Audience_id>"
+//Authorization = "<AudienceName> <Api_key>"
 var options = {
     url: process.env.Mailchimp_URI,
     method: "post",

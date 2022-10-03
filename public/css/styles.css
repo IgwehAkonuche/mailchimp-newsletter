@@ -10,7 +10,8 @@ body {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #f5f5f5;
+  background: rgb(223,230,19);
+background: linear-gradient(167deg, rgba(223,230,19,0.9906337535014006) 31%, rgba(179,39,170,0.9878326330532213) 69%);
 }
 
 .form-signin {
